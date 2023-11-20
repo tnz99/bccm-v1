@@ -33,7 +33,7 @@
     <x-story-control :links="$links" :next-link="$nextLink" :dark=$darkThemeFlag/>
 </div>
 
-<img id="prayer-wheel" src="{{ asset('/images/prayer-wheel/1.png') }}" alt="prayer wheel" class="prayer-wheel-position prayer-wheel"  >
+<img id="prayer-wheel" src="/images/prayer-wheel/1.png" alt="prayer wheel" class="prayer-wheel-position prayer-wheel"  >
 @endsection
 
 @section('nav')
