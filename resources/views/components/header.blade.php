@@ -22,7 +22,7 @@
         </div>
 
         <ul class="header-nav-list">
-            <li class="text-uppercase"><a class="no-underline {{ $dark ? 'text-white' : 'text-black' }} nav-list-link" href="/home">home</a></li>
+            <li class="text-uppercase"><a class="no-underline {{ $dark ? 'text-white' : 'text-black' }} nav-list-link" href="/">home</a></li>
             <li class="text-uppercase"><a class="no-underline {{ $dark ? 'text-white' : 'text-black' }} nav-list-link" href="/about">about</a></li>
             <li class="text-uppercase"><a class="no-underline {{ $dark ? 'text-white' : 'text-black' }} nav-list-link" href="/the-newsE">news & events</a></li>
             <li class="text-uppercase"><a class="no-underline {{ $dark ? 'text-white' : 'text-black' }} nav-list-link" href="/contact">contact</a></li>

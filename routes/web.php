@@ -13,7 +13,7 @@ use App\Http\Controllers\YourController;
 use App\Models\User;
 use Illuminate\Http\Request;
 
-Route::get('/', function () { return view('auth.login'); });
+Route::get('/login', function () { return view('auth.login'); });
 Auth::routes([ 'verify'=>true ]);
 Route::get('/admin/home', [HomeController::class, 'index'])->name('home');
 
@@ -45,7 +45,7 @@ Route::middleware(['auth', 'admin'])->group(function () {
 });
 
 // User routes
-Route::get('/home', function() {
+Route::get('/', function() {
     $cnavBg = "the-climate-cnav-bg";
     $cnavInnerBorder = "border-gray";
     $links = [''];
@@ -427,7 +427,7 @@ Route::get('/the-laws', function() {
 Route::get('/the-people', function() {
     $description = "The Kingdom of Bhutan is a land of remarkable climatic diversity. Despite its relatively small size, this enchanting country encompasses a wide range of climates, from subtropical valleys to high-altitude alpine regions. This climatic diversity adds to the nation's allure, making it a captivating destination for adventurers and nature enthusiasts.";
     $links = ['/the-people', '/the-people2'];
-    $nextLink = "#";
+    $nextLink = "/the-kingdom";
     $cnavBg = "the-people-cnav-bg";
     $cnavInnerBorder = "border-white";
 
@@ -436,7 +436,7 @@ Route::get('/the-people', function() {
 
 Route::get('/the-people2', function() {
     $links = ['/the-people', '/the-people2'];
-    $nextLink = "#";
+    $nextLink = "/the-kingdom";
     $cnavBg = "the-people-cnav-bg";
     $cnavInnerBorder = "border-white";
 
