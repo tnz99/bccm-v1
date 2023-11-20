@@ -99,6 +99,5 @@
 @endsection
 
 @section('nav')
-    <x-story-nav :dark=$darkThemeFlag />
     <x-circular_nav :background="$cnavBg" :inner-border="$cnavInnerBorder"/>
 @endsection
