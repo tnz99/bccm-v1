@@ -21,6 +21,7 @@
     <div class="wrapper">
         @yield('header')
         @yield('content')
+        @yield('footer')
         @yield('nav')
         <button id="story-nav-btn" class="zoom-in-element open-btn">Our Story</button>
     </div>

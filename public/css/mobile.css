@@ -149,8 +149,6 @@
         position: static;
         width: unset;
         margin: unset;
-        padding-left: 50px;
-        padding-right: 50px;
         flex-wrap: wrap;
     }
 
@@ -166,15 +164,13 @@
     .story-section {
         margin-top: 80px;
         margin-top: 10vh;
+        padding: 0 50px;
     }
 
     .story-header {
         margin-left: unset;
         width: unset;
         min-width: unset;
-
-        padding-left: 50px;
-        padding-right: 50px;
     }
 
     .story-header-text {

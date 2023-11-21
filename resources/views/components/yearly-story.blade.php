@@ -29,11 +29,15 @@
         <li class="year-nav-list-item"><a href="/laws/2019" class="spin-button year-nav-link">2019</a></li>
         <li class="year-nav-list-item"><a href="/laws/2020" class="spin-button year-nav-link">2020</a></li>
     </ul>
-
-    <x-story-control :links="$links" :next-link="$nextLink" :dark=$darkThemeFlag/>
 </div>
 
 <img id="prayer-wheel" src="/images/prayer-wheel/1.png" alt="prayer wheel" class="prayer-wheel-position prayer-wheel"  >
+@endsection
+
+@section('footer')
+<footer class="footer">
+    <x-story-control :links="$links" :next-link="$nextLink" :dark=$darkThemeFlag/>
+</footer>
 @endsection
 
 @section('nav')

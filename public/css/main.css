@@ -491,14 +491,7 @@ button { border: 0; }
 
 /* Story Control */
 .story-control-wrapper {
-    position: relative;
-    bottom: 0;
-
-    margin-left: 140px;
-    margin-bottom: 60px;
-
-    width: 30%;
-
+    /* width: 34%; */
     justify-content: space-between;
 }
 
@@ -592,12 +585,12 @@ button { border: 0; }
 }
 
 .logo {
-    margin-left: 150px;
+    padding-left: 150px;
 }
 
 .logo-text-wrapper {
-    margin-left: 9px;
-    font-size: 14px;
+    padding-left: 10px;
+    font-size: 16px;
 }
 
 .logo-text {
@@ -609,7 +602,8 @@ button { border: 0; }
 .header-nav-list {
     display: flex;
     list-style: none;
-    margin-left: 100px;
+    padding-left: 150px;
+    margin: unset;
 }
 
 .nav-list-link {
@@ -662,13 +656,15 @@ button { border: 0; }
 /* Story Page */
 .story-section {
     margin-top: 140px;
-    height: 100vh;
+    padding: 0 150px;
 }
 
-.story-header {
-    margin-left: 139px;
-    width: 495px;
-    min-width: 40%; 
+.footer {
+    padding: 0 150px;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    margin-bottom: 8vh;
 }
 
 .story-header-text {

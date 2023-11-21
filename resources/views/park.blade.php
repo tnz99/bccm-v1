@@ -186,8 +186,13 @@
     </div>
 
     <h1 class="text-black">the PARKS</h1>
-    <x-story-control :links="$links" :next-link="$nextLink" :dark=$darkThemeFlag/>
 </section>
+@endsection
+
+@section('footer')
+<footer class="footer">
+    <x-story-control :links="$links" :next-link="$nextLink" :dark=$darkThemeFlag/>
+</footer>
 @endsection
 
 @section('nav')

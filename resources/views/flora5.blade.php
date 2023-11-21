@@ -182,8 +182,13 @@
     </div>
 
     <h1 class="text-white">the NATIONAL TREE & the HERBS</h1>
-    <x-story-control :links="$links" :next-link="$nextLink" :dark=$darkThemeFlag/>
 </section>
+@endsection
+
+@section('footer')
+<footer class="footer">
+    <x-story-control :links="$links" :next-link="$nextLink" :dark=$darkThemeFlag/>
+</footer>
 @endsection
 
 @section('nav')

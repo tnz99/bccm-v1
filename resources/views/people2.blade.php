@@ -197,10 +197,13 @@ Sonam embodies Bhutan's dedication to preserving its natural heritage. The const
        
     </div>
     <h1 class="text-white">the PEOPLE</h1>
-
-
-    <x-story-control :links="$links" :next-link="$nextLink" :dark=$darkThemeFlag/>
 </section>
+@endsection
+
+@section('footer')
+<footer class="footer">
+    <x-story-control :links="$links" :next-link="$nextLink" :dark=$darkThemeFlag/>
+</footer>
 @endsection
 
 @section('nav')
