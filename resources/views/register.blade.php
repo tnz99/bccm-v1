@@ -11,7 +11,7 @@
     <div class="register-form-container">
         <h4 class="{{ $darkThemeFlag ? 'text-white' : 'text-black' }} fw-400 ">Dont miss the latest updates!</h4>
 
-        <form class="d-flex flex-column align-items-start register-form" method="POST" action="{{ route('register') }}">
+        <form class="d-flex flex-column align-items-start register-form" method="POST" action="{{ route('register', [], true) }}">
             @csrf
             <div class="form-group">
                 <input id="name" type="text" class="registration-input form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus placeholder="Full Name">
