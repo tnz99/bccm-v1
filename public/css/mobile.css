@@ -1,3 +1,9 @@
+@media screen and (min-width: 1920px) {
+    .story-section.gallery-wrapper {
+        margin-top: 100px;
+    }
+}
+
 @media (max-width: 1400px) {
     .circular-nav, #our_story_btn {
         display: none;
@@ -32,16 +38,16 @@
         min-width: 315px;
     }
 
-    .gallery-container {
+    /* .gallery-container {
         overflow-x: auto;
         width: 50%;
         max-height: 50%;
         margin-top: 100px;
-    }
+    } */
 
-    h1.text-white {
+    /* h1.text-white {
         margin-left: 50px;
-    }
+    } */
 }
 
 @media (max-width: 1100px) {
@@ -301,29 +307,24 @@
     }
 
     .gallery-container {
-        margin-left: 7px;
         overflow-x: scroll;
-        width: 110%;
+        /* width: 110%;
         height:46%;
-        margin-top: -10px;
+        margin-top: -10px; */
     }
     .option{
         margin-top:20px;
     
     }
     
-
-
-
     h1.text-white, h1.text-black, h1.text-white span.text-uppercase, h1.text-black span.text-uppercase {
         font-size: 30px;
-
     }
 
-    h1.text-white, h1.text-black {
+    /* h1.text-white, h1.text-black {
         margin-left: 20px;
         margin-top: 10px;
-    }
+    } */
 
     .circle-xm:hover, .next-story-btn:hover {
         background-color: white;

@@ -6,22 +6,18 @@
 
 @section('content')
 
-<section class="d-flex flex-column z-3 story-section">
+<section class="d-flex z-3 story-section align-items-center" style="margin-top: 25vh;">
     <div class="{{ $darkThemeFlag ? 'text-white' : 'text-black' }} story-header">
         <h2 class="story-header-text">we are</h2>
         <h2 class="story-header-text">{{ $name }}</h2>
         <p class="story-header-description">{{ $description }}</p>
-        <div class= "containerfb">
-        
-        <div class= "fb-div"><img class= "fb" src="../images/backgrounds/fb.png" alt="img"/></div>
-        <div class= "fb-div"><img class= "ig" src="../images/backgrounds/ig.png" alt="img"/></div>
-        <div class= "fb-div"><img class= "email" src="../images/backgrounds/email.png" alt="img"/></div>
-
     </div>
-</div>
 
-   
-   
+    <div class= "containerfb">
+        <a href="#" class="fb-div"><img class= "fb" src="../images/backgrounds/fb.png" alt="img"/></a>
+        <a href="#" class="fb-div"><img class= "ig" src="../images/backgrounds/ig.png" alt="img"/></a>
+        <a href="#" class="fb-div"><img class= "email" src="../images/backgrounds/email.png" alt="img"/></a>
+    </div>
 </section>
 @endsection
 
