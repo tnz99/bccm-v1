@@ -24,7 +24,6 @@
                 </div>
             </div>
 
-        
             <div class="option" style="background:  #524266; opacity: 0.8;">
                 <div class="image" style="background-image: url('../images/backgrounds/poppy1.png');">
                     <div class="label">

@@ -17,9 +17,10 @@ body .options {
     flex-direction: row;
     align-items: stretch;
     overflow: hidden;
-    min-width: 600px;
-    max-width: 1000px;
-    width: calc(100% - 100px);
+    /* min-width: 600px; */
+    /* max-width: 1000px; */
+    /* width: calc(100% - 100px); */
+    width: 100vw;
     height: 400px;
 }
 
@@ -156,10 +157,27 @@ body .options .option {
 
 .description {
     display: none;
+    margin-top: 10px;
+    z-index: 1000;
+    /* position: static; */
+    /* position: absolute; */
+    /* bottom: 10px; */
+    /* left: 10px; */
+    color: white;
+   
+    /* z-index: 1; */
+    overflow-y: auto; 
+    /* padding: 10px; */
+    /* max-height: 50vh; */
+    height: 105%;
+    /* width: 100%;  */
+    line-height: normal;
+
 }
 
 .active .description {
     display: block;
+    overflow: scroll;
 }
 
 .image {
@@ -178,10 +196,9 @@ body .options .option {
     background-size: center;  /* Make sure the background image fits within the container without cropping */
     height: 40%;
     width: 94%;
-    position: absolute;
+    position: sticky;
     top: 3%; 
     left: 3%;
-   
 }
 
 /* h1.text-white, h1.text-black {
