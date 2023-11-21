@@ -157,26 +157,27 @@
     }
 
     .story-section {
-        /* padding-left: 50px; */
-        padding-right: 40px;
         margin-top: 80px;
+        margin-top: 10vh;
     }
 
     .story-header {
-        width: 100%;
-        margin-left: auto;
+        margin-left: unset;
+        width: unset;
+        min-width: unset;
+
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
     .story-header-text {
         font-size: 50px;
         padding-bottom: 0;
-        margin-left: 20px;
         line-height: normal;
     }
 
     .story-header-description {
         font-size: 16px;
-        margin-left: 20px;
     }
 
     .next-story {
