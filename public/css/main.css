@@ -138,158 +138,132 @@ button { border: 0; }
 .register-background {
     background: lightgray url('../images/backgrounds/image_1.png') center/cover no-repeat;
     height: 100vh;
-    background-size: cover;
 }
 .the-kingdom {
     background: lightgray url('../images/backgrounds/the_kingdom.png') center/cover no-repeat;
     height: 100vh;
-    background-size: cover;
 }
 .the-kingdom2 {
     backdrop-filter: blur(10px);
     background: lightgray url('../images/backgrounds/the_kingdom.png') center/cover no-repeat;
     height: 100vh;
-    background-size: cover;
 }
 .the-laws-1  {
     background: lightgray url('../images/backgrounds/image_5.png') center/cover no-repeat;
     height: 100vh;
-    background-size: cover;
 }
 .contact {
     background: lightgray url('../images/backgrounds/about.png') center/cover no-repeat;
     height: 100vh;
-    background-size: cover;
 }
 
 .the-flora {
     /* backdrop-filter: blur(10px); */
     background: lightgray url('../images/backgrounds/the_flora.png') center/cover no-repeat;
     height: 100vh;
-    background-size: cover;
 }
 
 .the-flora2 {
     backdrop-filter: blur(10px);
     background: lightgray url('../images/backgrounds/the_flora.png') center/cover no-repeat;
     height: 100vh;
-    background-size: cover;
 }
 .the-flora3 {
     backdrop-filter: blur(10px);
     background: lightgray url('../images/backgrounds/the_flora.png') center/cover no-repeat;
     height: 100vh;
-    background-size: cover;
 }
 .the-flora4 {
     backdrop-filter: blur(10px);
     background: lightgray url('../images/backgrounds/the_flora.png') center/cover no-repeat;
     height: 100vh;
-    background-size: cover;
 }
 
 .the-flora5 {
     backdrop-filter: blur(10px);
     background: lightgray url('../images/backgrounds/the_flora.png') center/cover no-repeat;
     height: 100vh;
-    background-size: cover;
 }
 .the-birds {
-   
     background: lightgray url('../images/backgrounds/winter.png') center/cover no-repeat;
     height: 100vh;
-    background-size: cover;
 }
 
-.the-fauna {   background: lightgray url('../images/backgrounds/the_fauna.png') center/cover no-repeat;
+.the-fauna {
+    background: lightgray url('../images/backgrounds/the_fauna.png') center/cover no-repeat;
     height: 100vh;
-    background-size: cover;
 }
 .the-butterfly2 {   
     backdrop-filter: blur(10px);
     background: lightgray url('../images/backgrounds/the_fauna.png') center/cover no-repeat;
     height: 100vh;
-    background-size: cover;
 }
-.the-mammals {   background: lightgray url('../images/backgrounds/mam1.png') center/cover no-repeat;
+.the-mammals {
+    background: lightgray url('../images/backgrounds/mam1.png') center/cover no-repeat;
     height: 100vh;
-    background-size: cover;
 }
 .the-mammals2 {
     backdrop-filter: blur(10px);
     background: lightgray url('../images/backgrounds/mam1.png') center/cover no-repeat;
     height: 100vh;
-    background-size: cover;
 }
 .the-birds2 {
     backdrop-filter: blur(10px);
     background: lightgray url('../images/backgrounds/winter.png') center/cover no-repeat;
     height: 100vh;
-    background-size: cover;
 }
 .the-change2 {
     backdrop-filter: blur(10px);
     background: lightgray url('../images/backgrounds/change.jpeg') center/cover no-repeat;
     height: 100vh;
-    background-size: cover;
 }
-
-
-.the-climate {   background: lightgray url('../images/backgrounds/home.png') center/cover no-repeat;
+.the-climate {
+    background: lightgray url('../images/backgrounds/home.png') center/cover no-repeat;
     height: 100vh;
-    background-size: cover;
 }
-.the-summer {   background: lightgray url('../images/backgrounds/summer.png') center/cover no-repeat;
+.the-summer {
+    background: lightgray url('../images/backgrounds/summer.png') center/cover no-repeat;
     height: 100vh;
-    background-size: cover;
 }
-.the-winter {   background: lightgray url('../images/backgrounds/winter.png') center/cover no-repeat;
+.the-winter {
+    background: lightgray url('../images/backgrounds/winter.png') center/cover no-repeat;
     height: 100vh;
-    background-size: cover;
-}.the-spring {   background: lightgray url('../images/backgrounds/spring.png') center/cover no-repeat;
-    height: 100vh;
-    background-size: cover;
 }
-.the-autumn {   background: lightgray url('../images/backgrounds/autumn.png') center/cover no-repeat;
+.the-spring {
+    background: lightgray url('../images/backgrounds/spring.png') center/cover no-repeat;
     height: 100vh;
-    background-size: cover;
 }
-
-
-.the-change {   background: lightgray url('../images/backgrounds/change.jpeg') center/cover no-repeat;
+.the-autumn {
+    background: lightgray url('../images/backgrounds/autumn.png') center/cover no-repeat;
     height: 100vh;
-    background-size: cover;
 }
-
-.the-laws {   background: lightgray url('../images/backgrounds/the_law.png') center/cover no-repeat;
+.the-change {
+    background: lightgray url('../images/backgrounds/change.jpeg') center/cover no-repeat;
     height: 100vh;
-    background-size: cover;
 }
-
-.the-people {   background: lightgray url('../images/backgrounds/the_people.png') center/cover no-repeat;
+.the-laws {
+    background: lightgray url('../images/backgrounds/the_law.png') center/cover no-repeat;
     height: 100vh;
-    background-size: cover;
+}
+.the-people {
+    background: lightgray url('../images/backgrounds/the_people.png') center/cover no-repeat;
+    height: 100vh;
 }
 .the-people2{  
     backdrop-filter: blur(10px); 
     background: lightgray url('../images/backgrounds/the_people.png') center/cover no-repeat;
     height: 100vh;
-    background-size: cover;
 }
 .the-newsE{  
     backdrop-filter: blur(10px); 
     background: lightgray url('../images/backgrounds/about.png') center/cover no-repeat;
     height: 100vh;
-    background-size: cover;
 }
 .about{  
     backdrop-filter: blur(6px); 
     background: lightgray url('../images/backgrounds/about.png') center/cover no-repeat;
     height: 100vh;
-    background-size: cover;
 }
-
-
 .home {
     backdrop-filter: blur(50%);
     background: lightgray url('../images/backgrounds/home1.png');
@@ -312,32 +286,16 @@ button { border: 0; }
 .the-summer-cnav-bg {background: linear-gradient(270deg, #C38F33 42.11%, rgba(255, 226, 173, 0.47) 101.31%);}
 .the-winter-cnav-bg {background: linear-gradient(270deg, #262432 42.11%, rgba(83, 80, 99, 0.29) 101.31%);}
 .the-autumn-cnav-bg {background: linear-gradient(270deg, #47A2DE 42.11%, rgba(188, 219, 240, 0.40) 101.31%);}
-.home-cnav-bg {
-    background: linear-gradient(270deg, #151A21 42.11%, rgba(23, 28, 36, 0.06) 101.31%);
-}
 
-.register-cnav-bg {
-    background: linear-gradient(270deg, #151A21 42.11%, rgba(23, 28, 36, 0.06) 101.31%);
-}
-
-.the-spring-cnav-bg {
-background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 101.31%);
-}
-
-.the-law1-cnav-bg {
-    background: linear-gradient(270deg, #585858 42.11%, rgba(193, 195, 194, 0.71) 101.31%);
-} 
-
+.home-cnav-bg { background: linear-gradient(270deg, #151A21 42.11%, rgba(23, 28, 36, 0.06) 101.31%); }
+.register-cnav-bg { background: linear-gradient(270deg, #151A21 42.11%, rgba(23, 28, 36, 0.06) 101.31%); }
+.the-spring-cnav-bg { background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 101.31%); }
+.the-law1-cnav-bg { background: linear-gradient(270deg, #585858 42.11%, rgba(193, 195, 194, 0.71) 101.31%); } 
 
 /* Circular nave inner circle border */
 
-.border-gray {
-    border: 1px solid gray;
-}
-.border-white {
-    border: 1px solid white;
-}
-
+.border-gray { border: 1px solid gray; }
+.border-white { border: 1px solid white; }
 .our-story-btn {
     width: 125px;
     height: 125px;
@@ -357,7 +315,6 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     font-weight: 700;
     line-height: normal;
 }
-
 .circle-xm, .next-story-btn {
     width: 50px;
     height: 50px;
@@ -366,7 +323,6 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     color: black;
     font-weight: bold;
 }
-
 .language-btn {
     width: 94px;
     height: 39px;
@@ -376,7 +332,6 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     border: 0.3px solid #FFF;
     background: rgba(255, 255, 255, 0.20);
 }
-
 .hidden { display: none; }
 
 @keyframes zoomIn {
@@ -387,9 +342,7 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
         transform: scale(1);
     }
 }
-
 .zoom-in-element { animation: zoomIn 0.5s ease; }
-
 .snowfall {
     position: absolute;
     width: 10px;
@@ -397,7 +350,6 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     background-color: #fff;
     animation: snowfall 5s linear infinite;
 }
-
 .snow,.snow:after,.snow::before {
     content: '';
     position: absolute;
@@ -442,11 +394,7 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
 }
 
 /* Snowfall End*/
-
-.wrapper {
-    position: relative;
-}
-
+.wrapper { position: relative; }
 .only-border{
     border: 2px solid #FCFF5C;
     border-radius: 50px;
@@ -463,7 +411,6 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     align-items: center;
     min-height: 15vh; /* Adjust the minimum height as needed */
 }
-
 .prayer-wheel-position {
     position: fixed;
     right: -550px;
