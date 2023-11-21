@@ -157,7 +157,7 @@ body .options .option {
 
 .description {
     display: none;
-    margin-top: 10px;
+    margin-top: 12px;
     z-index: 1000;
     /* position: static; */
     /* position: absolute; */
@@ -173,6 +173,10 @@ body .options .option {
     /* width: 100%;  */
     line-height: normal;
 
+}
+
+.description ul {
+    padding-left: 25px;
 }
 
 .active .description {
