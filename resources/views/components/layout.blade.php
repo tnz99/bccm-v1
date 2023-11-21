@@ -3,16 +3,21 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta http-equiv="cache-control" content="no-cache, must-revalidate, post-check=0, pre-check=0">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="pragma" content="no-cache">
+
     <title>BCCM | Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
 
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link rel="stylesheet" type="text/css" href="/css/circular-nav.css">
-    <link rel="stylesheet" type="text/css" href="/css/audio.css">
-    <link rel="stylesheet" type="text/css" href="/css/prayerwheel.css" />
-    <link rel="stylesheet" type="text/css" href="/css/image-gallery.css">
-    <link rel="stylesheet" type="text/css" href="/css/mobile.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css?v=20230101120000">
+    <link rel="stylesheet" type="text/css" href="/css/circular-nav.css?v=20230101120000">
+    <link rel="stylesheet" type="text/css" href="/css/audio.css?v=20230101120000">
+    <link rel="stylesheet" type="text/css" href="/css/prayerwheel.css?v=20230101120000" />
+    <link rel="stylesheet" type="text/css" href="/css/image-gallery.css?v=20230101120000">
+    <link rel="stylesheet" type="text/css" href="/css/mobile.css?v=20230101120000">
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
