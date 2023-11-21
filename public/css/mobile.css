@@ -55,7 +55,7 @@
 
     .menu-icon {
         display: block;
-        margin-right: 10px;
+        padding-right: 50px;
     }
 
     .header-nav-list li .custom-audio {
@@ -63,7 +63,9 @@
     }
 
     .logo {
-        margin-left: 15px;
+        /* margin-left: 15px; */
+        margin: unset;
+        padding-left: 50px;
     }
 
     .svg-logo {
