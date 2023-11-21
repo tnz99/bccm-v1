@@ -7,7 +7,7 @@
 
 @section('content')
 
-<section class="story-section">
+<section class="story-section gallery-wrapper">
     <div class="gallery-container">
         <div class="options">
             <div class="option active" style="background:   #DA8495; opacity: 0.7;">
@@ -21,8 +21,11 @@
                
             </div>
             <div class="description">
-            <div class="image-content scroll text-white">Join us for 'ClimateAction360,' an event dedicated to raising awareness about climate change. Engage with expert speakers, discussions, and presentations to inspire change for a sustainable future. Let's make a difference together!</div>
-         </div>
+                <div class="image-content scroll text-white">
+                    Join us for 'ClimateAction360,' an event dedicated to raising awareness about climate change. Engage with expert speakers, discussions, and presentations to inspire change for a sustainable future. Let's make a difference together! Join us for 'ClimateAction360,' an event dedicated to raising awareness about climate change. Engage with expert speakers, discussions, and presentations to inspire change for a sustainable future. Let's make a difference together!Join us for 'ClimateAction360,' an event dedicated to raising awareness about climate change. Engage with expert speakers, discussions, and presentations to inspire change for a sustainable future. Let's make a difference together!Join us for 'ClimateAction360,' an event dedicated to raising awareness about climate change. Engage with expert speakers, discussions, and presentations to inspire change for a sustainable future. Let's make a difference together!
+                    <a href="" target="tab">Read More...</a>
+                </div>
+            </div>
         </div>
 
         <div class="option" style="background:   #DA8495; opacity: 0.7;">
