@@ -1,4 +1,3 @@
-
 @extends('components.layout')
 @section('body_class',$bodyClass)
 @section('header')
