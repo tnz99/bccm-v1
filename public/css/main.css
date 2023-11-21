@@ -764,8 +764,6 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     border: none;
     border-radius: 0%;
     text-align: center;
-
-    flex-shrink: 1;
     width: 345%;
 }
     
