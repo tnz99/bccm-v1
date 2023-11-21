@@ -6,7 +6,7 @@
 @endsection
 
 @section('content')
-<section class="story-section">
+<section class="story-section gallery-wrapper">
     <div class="gallery-container">
         <div class="options">
             <div class="option active">
@@ -146,8 +146,13 @@
     </div>
 
     <h1 class="text-white">the <span class="text-uppercase">Kingdom</span></h1>
-    <x-story-control :links="$links" :next-link="$nextLink" :dark=$darkThemeFlag />
 </section>
+@endsection
+
+@section('footer')
+<footer class="footer">
+    <x-story-control :links="$links" :next-link="$nextLink" :dark=$darkThemeFlag/>
+</footer>
 @endsection
 
 @section('nav')

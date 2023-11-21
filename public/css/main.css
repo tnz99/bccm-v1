@@ -518,11 +518,6 @@ button { border: 0; }
 }
 
 /* Home Page */
-.home-wrapper {
-    margin-left: 145px;
-    margin-top: 100px;
-}
-
 .home-header-text {
     color: black;
     line-height: normal;
@@ -699,10 +694,6 @@ button { border: 0; }
 
 .register-form-wrapper {
     margin-top: 12vh;
-}
-
-.register-form-container {
-    padding-left: 150px;
 }
 
 .check-label-text {
@@ -909,11 +900,6 @@ button { border: 0; }
 
 .ac {
     background-color: yellow;
-}
-
-h1.text-white, h1.text-black {
-    margin-left: 140px;
-    
 }
 
 .containerfb {

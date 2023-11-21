@@ -6,7 +6,7 @@
 @endsection
 
 @section('content')
-<section class="story-section">
+<section class="story-section gallery-wrapper">
     <div class="gallery-container">
         <div class="options">
             <div class="option active" style="background: #0E4A47; opacity: 0.7; ">

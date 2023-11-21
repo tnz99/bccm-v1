@@ -1,11 +1,15 @@
 /* @import url(https://pro.fontawesome.com/releases/v5.11.2/css/all.css); */
 
+.story-section.gallery-wrapper {
+    margin-top: 40px;
+}
+
 .gallery-container {
-    margin-top: -100px;
+    /* margin-top: -100px; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 140px;
+    /* margin-left: 140px; */
 }
 
 body .options {
@@ -180,9 +184,9 @@ body .options .option {
    
 }
 
-h1.text-white, h1.text-black {
-    margin-top: 40px;
-}
+/* h1.text-white, h1.text-black {
+    padding-top: 40px;
+} */
 h1.text-white, h1.text-black, h1.text-white span.text-uppercase {
     color: #FFF;
     font-family: Inter;
