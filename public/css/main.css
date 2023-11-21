@@ -889,11 +889,6 @@ button { border: 0; }
     background-color: yellow;
 }
 
-h1.text-white, h1.text-black {
-    margin-left: 140px;
-    
-}
-
 .containerfb {
     display: flex;
     justify-content: space-around; 
