@@ -491,7 +491,7 @@ button { border: 0; }
 
 /* Story Control */
 .story-control-wrapper {
-    /* width: 34%; */
+    width: 34%;
     justify-content: space-between;
 }
 
