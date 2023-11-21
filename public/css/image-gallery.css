@@ -163,20 +163,25 @@ body .options .option {
 }
 
 .image {
-    background-size: cover;
+    background-size: cover;  /* Make sure the background image fits within the container without cropping */
+    background-position: center;
+    background-repeat: no-repeat; 
+
     width: 100%; 
     height: 100%;
     border-radius: 10px; 
-    background-size: center;
     top: 0;
+    overflow: hidden;
 }
 
 .active-image {
+    background-size: center;  /* Make sure the background image fits within the container without cropping */
     height: 40%;
     width: 94%;
     position: absolute;
     top: 3%; 
     left: 3%;
+   
 }
 
 /* h1.text-white, h1.text-black {
