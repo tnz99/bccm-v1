@@ -743,7 +743,7 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
 .story-header-description {
     font-weight: 400;
     font-size: 18px;
-    max-width: 70%;
+    max-width: 60vh;
     line-height: normal;
     font-style: normal;
     position: relative;
