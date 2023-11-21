@@ -1,8 +1,8 @@
 .circular-nav {
     height: 100vh;
-    width: 55%;
+    width: 100vh;
     opacity: 0.75;
-    border-radius: 100%;
+    border-radius: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,9 +12,9 @@
 }
 
 .inner-circle {
-    width: 45%;
-    height: 45%;
-    border-radius: 100%;
+    width: calc(100vh/2);
+    height: calc(100vh/2);
+    border-radius: calc(100vh/2);
     display: flex;
     justify-content: start;
     align-items: center;

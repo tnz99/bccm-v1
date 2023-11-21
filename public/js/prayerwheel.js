@@ -56,7 +56,7 @@ $(function(){
    function spinwheel(index) {
       if (index < prayerWheelFrames.length) {
         // Process the current element
-        console.log("Index: " + index + ", Value: " + prayerWheelFrames[index]);
+        // console.log("Index: " + index + ", Value: " + prayerWheelFrames[index]);
         prayerWheel.attr("src", prayerWheelFrames[index]);
 
         // Increment the index for the next iteration
