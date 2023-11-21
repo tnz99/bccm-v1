@@ -7,7 +7,7 @@
 @section('body_class', 'register-background')
 
 @section('content')
-<section class="d-flex justify-content-between register-form-wrapper">
+<section class="register-form-wrapper">
     <div class="register-form-container">
         <h4 class="{{ $darkThemeFlag ? 'text-white' : 'text-black' }} fw-400 ">Dont miss the latest updates!</h4>
 
@@ -43,7 +43,7 @@
                 @enderror
             </div>
 
-            <div class="d-flex justify-content-center align-item-center form-check form-check-inline">
+            <div class="d-flex justify-content-start align-item-center form-check form-check-inline">
                 <input class="form-check-input form-check-input-box" type="checkbox" id="inlineCheckbox2" value="option2" required>
                 <span class="form-check-label check-label-text" for="inlineCheckbox2">
                     I agree with the <span class="terms-condition">terms & conditions </span>

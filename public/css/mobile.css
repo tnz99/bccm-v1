@@ -131,7 +131,7 @@
     /* register button */
     .register-btn {
         margin-top: 20px;
-        width: 50%;
+        /* width: 50%; */
     }
 
     .register-text {
@@ -211,17 +211,23 @@
     .register-form-wrapper .form-group{
         text-align: center;
     }
-
+  
     .register-form-container {
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 20%;
+        padding-left: unset;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .register-form-container h4 {
+        text-align: center !important;
     }
 
     .register-form {
-        justify-content: center;
-        align-items: center;
+        align-items: center !important;
     }
+
+
 
    
 
@@ -280,12 +286,21 @@
     }
 
     .registration-input {
-        width: 130%;
+        /* width: 130%; */
         align-items: center;
     }
 
     .story-header-description {
         max-width: 100%;
+    }
+
+    .form-check .form-check-input {
+        float: none;
+        margin-left: 0;
+    }
+
+    .form-group, .form-check {
+        width: 80vw;
     }
 
     .gallery-container {
