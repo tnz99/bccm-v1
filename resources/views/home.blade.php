@@ -25,7 +25,6 @@
 
 @section('nav')
     <x-story-nav :dark=$darkThemeFlag />
-    <!-- <x-circular_nav :background="$cnavBg" :inner-border="$cnavInnerBorder"/> -->
     <x-circular_nav background="the-climate-cnav-bg" inner-border="border-white"/>
 @endsection
 </div>
