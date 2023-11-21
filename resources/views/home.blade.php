@@ -4,7 +4,6 @@
     <x-header :dark=$darkThemeFlag />
 @endsection
 @section('content')
-<div id="fog">
 <section class="d-flex justify-content-between home-wrapper">
     <div class="home-main-content">
         <h2 class="home-header-text">Bhutan Believe:</h2>
