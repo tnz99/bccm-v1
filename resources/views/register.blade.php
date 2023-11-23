@@ -1,13 +1,14 @@
 @extends('components.layout')
 
 @section('header')
+    <link rel="stylesheet" href="/css/spring.css" />
     <x-header :dark=$darkThemeFlag />
 @endsection
 
 @section('body_class', 'register-background')
 
 @section('content')
-
+<div class="spring-animation"></div>
 
 <section class="register-form-wrapper story-section">
     <div class="register-form-container">
@@ -75,6 +76,29 @@
 @section('nav')
     <x-story-nav :dark=$darkThemeFlag />
     <x-circular_nav background="the-spring-cnav-bg" inner-border="border-white"/>
+    <script src="/js/spring.js"></script>
+
+    <script>
+        var sakura = new Sakura('body', {
+            colors: [
+            {
+                gradientColorStart: 'rgba(255, 183, 197, 0.9)',
+                gradientColorEnd: 'rgba(255, 197, 208, 0.9)',
+                gradientColorDegree: 120,
+            },
+            {
+                gradientColorStart: 'rgba(255,189,189)',
+                gradientColorEnd: 'rgba(227,170,181)',
+                gradientColorDegree: 120,
+            },
+            {
+                gradientColorStart: 'rgba(212,152,163)',
+                gradientColorEnd: 'rgba(242,185,196)',
+                gradientColorDegree: 120,
+            },
+            ]
+        });
+    </script>
 
    
 @endsection
