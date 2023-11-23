@@ -7,6 +7,8 @@
 @section('body_class', 'register-background')
 
 @section('content')
+
+
 <section class="register-form-wrapper story-section">
     <div class="register-form-container">
         <h4 class="{{ $darkThemeFlag ? 'text-white' : 'text-black' }} fw-400 ">Dont miss the latest updates!</h4>
@@ -73,4 +75,6 @@
 @section('nav')
     <x-story-nav :dark=$darkThemeFlag />
     <x-circular_nav background="the-spring-cnav-bg" inner-border="border-white"/>
+
+   
 @endsection
