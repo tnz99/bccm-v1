@@ -48,7 +48,7 @@
             <div class="d-flex justify-content-start align-item-center form-check form-check-inline">
                 <input class="form-check-input form-check-input-box" type="checkbox" id="inlineCheckbox2" value="option2" required>
                 <span class="form-check-label check-label-text" for="inlineCheckbox2">
-                    I agree with the <span class="terms-condition">terms & conditions </span>
+                    I agree with the <a href="/pdf/termscondition.pdf?v=20230101120002" class="terms-condition">terms & conditions </a>
                 </span>
             </div>
 
