@@ -1,4 +1,4 @@
-// // keep playing
+// keep playing
 document.addEventListener("DOMContentLoaded", function () {
     const audio = document.getElementById("audio");
     const playPauseButton = document.getElementById("play-pause-button");
@@ -63,4 +63,11 @@ document.addEventListener("DOMContentLoaded", function () {
 //         playPauseButton.classList.add("paused");
 //     }
 // });
+
+
+
+
+
+
+
 

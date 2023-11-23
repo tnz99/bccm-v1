@@ -5,8 +5,8 @@
 @endsection
 @section('content')
 
-<div class="snow">
-</div>
+<!-- <div class="snow">
+</div> -->
 <section class="d-flex justify-content-between story-section">
     <div class="home-main-content">
         <h2 class="home-header-text">Bhutan Believe:</h2>
@@ -29,4 +29,3 @@
     <x-story-nav :dark=$darkThemeFlag />
     <x-circular_nav background="the-climate-cnav-bg" inner-border="border-white"/>
 @endsection
-</div>
