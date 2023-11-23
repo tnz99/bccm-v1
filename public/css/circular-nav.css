@@ -56,12 +56,14 @@
 }
 
 .semi-circle-item:nth-child(7) {
-    
     transform: translateX(-50%) translateY(50%) rotate(60deg);
 }
 
 .nav-item {
-    width: fit-content;
+    width: 175px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     transform-origin: 50% 50%;
 }
 
