@@ -12,6 +12,7 @@ use App\Http\Middleware\AdminAccessMiddleware;
 use App\Http\Controllers\YourController;
 use App\Models\User;
 use Illuminate\Http\Request;
+use PragmaRX\Countries\Package\Countries;
 
 Route::get('/login', function () { return view('auth.login'); });
 Auth::routes([ 'verify'=>true ]);
@@ -446,8 +447,10 @@ Route::get('/the-people2', function() {
 Route::get('/register', function () {
     $cnavBg = "the-climate-cnav-bg"; // Add this line or adjust as needed
     $cnavInnerBorder = "border-gray"; // Add this line or adjust as needed
+    $countries = Countries::all();
+
     
-    return view('register')->with('darkThemeFlag', false)->with('cnavBg', $cnavBg)->with('cnavInnerBorder', $cnavInnerBorder);
+    return view('register')->with('darkThemeFlag', false)->with('cnavBg', $cnavBg)->with('cnavInnerBorder', $cnavInnerBorder)->with('countries', $countries);
 })->name('register');
 
 Route::post('/register', function(Request $request) {

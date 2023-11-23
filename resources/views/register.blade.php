@@ -27,13 +27,48 @@
             </div>
 
             <div class="form-group">
-                <input id="country" type="text" class="registration-input form-control @error('country') is-invalid @enderror" name="country" value="{{ old('country') }}" required autocomplete="country" autofocus placeholder="Country">
+                {{-- <input id="country" type="text" class="registration-input form-control @error('country') is-invalid @enderror" name="country" value="{{ old('country') }}" required autocomplete="country" autofocus placeholder="Country"> --}}
+                <style>
+                    /* Basic styling for the custom dropdown */
+                    .custom-dropdown {
+                        position: relative;
+                        display: inline-block;
+                    }
+            
+                    .custom-dropdown select {
+                        padding: 10px;
+                        font-size: 16px;
+                        border: 1px solid #ccc;
+                        border-radius: 4px;
+                    }
+            
+                    /* Styling for the custom arrow icon */
+                    .custom-dropdown::after {
+                        content: '\25BC'; /* Unicode character for a down arrow */
+                        position: absolute;
+                        top: 50%;
+                        right: 10px;
+                        transform: translateY(-50%);
+                        font-size: 18px;
+                    }
+                </style>
 
-                @error('country')
-                    <span class="invalid-feedback" role="alert">
-                        <strong>{{ $message }}</strong>
-                    </span>
-                @enderror
+
+                {{-- <div class="form-group"> --}}
+                    <select id="country" class="custom-dropdown  registration-input form-control @error('country') is-invalid @enderror" name="country" required autocomplete="country" autofocus>
+                        <option value="" disabled selected>Select Country</option>
+                        <option value="Dubai">Dubai</option>
+                        @foreach ($countries as $country)
+                            <option value="{{ $country->get('iso_3166_1_alpha2') }}">{{ $country->get('name.common') }}</option>
+                        @endforeach
+                    </select>
+                
+                    @error('country')
+                        <span class="invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                        </span>
+                    @enderror
+                {{-- </div> --}}
             </div>
 
             <div class="form-group">

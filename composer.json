@@ -12,6 +12,7 @@
         "laravel/sanctum": "^3.2",
         "laravel/tinker": "^2.8",
         "laravel/ui": "^4.2",
+        "pragmarx/countries": "^0.8.2",
         "zero-bounce/sdk": "^1.1"
     },
     "require-dev": {
