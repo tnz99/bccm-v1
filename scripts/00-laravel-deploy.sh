@@ -19,4 +19,4 @@ php artisan route:cache
 # php artisan migrate --force
 
 # echo "Seeding Admins..."
-# php artisan db:seed
+php artisan db:seed
