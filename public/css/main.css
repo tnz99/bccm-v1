@@ -350,6 +350,9 @@ button { border: 0; }
     background-color: #fff;
     animation: snowfall 5s linear infinite;
 }
+.snow{
+    z-index: -1;
+}
 .snow,.snow:after,.snow::before {
     content: '';
     position: absolute;
