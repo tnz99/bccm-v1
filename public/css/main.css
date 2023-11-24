@@ -651,6 +651,7 @@ button { border: 0; }
 .story-section {
     margin-top: 140px;
     padding: 0 150px;
+    height: 100vh;
 }
 
 .footer {
@@ -697,6 +698,7 @@ button { border: 0; }
 
 .register-form-wrapper {
     margin-top: 12vh;
+    height: 100vh;
 }
 
 .check-label-text {
