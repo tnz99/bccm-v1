@@ -8,9 +8,7 @@
 @section('body_class', 'register-background')
 
 @section('content')
-<div class="spring-animation"></div>
-
-<section class="register-form-wrapper story-section">
+<section class="register-form-wrapper story-section spring-animation">
     <div class="register-form-container">
         <h4 class="{{ $darkThemeFlag ? 'text-white' : 'text-black' }} fw-400 ">Dont miss the latest updates!</h4>
 

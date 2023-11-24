@@ -697,6 +697,7 @@ button { border: 0; }
 
 .register-form-wrapper {
     margin-top: 12vh;
+    height: 100vh;
 }
 
 .check-label-text {
